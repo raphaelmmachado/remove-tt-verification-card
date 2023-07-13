@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "no verification",
+  "description": "Removes the get verificated box.",
+  "author": "Raphael Machado",
+  "icons": {
+    "46": "icons/icon-46.jpg",
+    "96": "icons/icon-96.jpg"
+  },
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
