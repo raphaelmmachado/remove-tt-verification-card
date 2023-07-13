@@ -4,8 +4,8 @@
   "description": "Removes the get verificated box.",
   "author": "Raphael Machado",
   "icons": {
-    "46": "icons/icon-46.jpg",
-    "96": "icons/icon-96.jpg"
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
   },
   "version": "1.0",
   "content_scripts": [
